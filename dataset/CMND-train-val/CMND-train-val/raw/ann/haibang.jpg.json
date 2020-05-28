@@ -1,0 +1,172 @@
+{
+    "description": "",
+    "tags": [
+        {
+            "name": "train",
+            "value": null,
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z"
+        }
+    ],
+    "size": {
+        "height": 894,
+        "width": 1280
+    },
+    "objects": [
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "anhdaidien",
+            "points": {
+                "exterior": [
+                    [
+                        128,
+                        376
+                    ],
+                    [
+                        380,
+                        721
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "quochuy",
+            "points": {
+                "exterior": [
+                    [
+                        170,
+                        159
+                    ],
+                    [
+                        358,
+                        337
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "socmnd",
+            "points": {
+                "exterior": [
+                    [
+                        521,
+                        264
+                    ],
+                    [
+                        1069,
+                        337
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "hovaten",
+            "points": {
+                "exterior": [
+                    [
+                        411,
+                        355
+                    ],
+                    [
+                        1145,
+                        462
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "ngaythangnamsinh",
+            "points": {
+                "exterior": [
+                    [
+                        409,
+                        471
+                    ],
+                    [
+                        1145,
+                        535
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "nguyenquan",
+            "points": {
+                "exterior": [
+                    [
+                        406,
+                        550
+                    ],
+                    [
+                        1147,
+                        654
+                    ]
+                ],
+                "interior": []
+            }
+        },
+        {
+            "description": "",
+            "geometryType": "rectangle",
+            "labelerLogin": "bangnghh",
+            "createdAt": "2020-05-25T09:51:58.045Z",
+            "updatedAt": "2020-05-25T09:51:58.045Z",
+            "tags": [],
+            "classTitle": "diachi",
+            "points": {
+                "exterior": [
+                    [
+                        395,
+                        665
+                    ],
+                    [
+                        1159,
+                        792
+                    ]
+                ],
+                "interior": []
+            }
+        }
+    ]
+}

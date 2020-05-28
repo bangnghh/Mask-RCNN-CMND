@@ -1,0 +1,58 @@
+{
+    "classes": [
+        {
+            "title": "anhdaidien",
+            "shape": "rectangle",
+            "color": "#D2289F",
+            "geometry_config": {}
+        },
+        {
+            "title": "quochuy",
+            "shape": "rectangle",
+            "color": "#F43E50",
+            "geometry_config": {}
+        },
+        {
+            "title": "socmnd",
+            "shape": "rectangle",
+            "color": "#298551",
+            "geometry_config": {}
+        },
+        {
+            "title": "hovaten",
+            "shape": "rectangle",
+            "color": "#02D91B",
+            "geometry_config": {}
+        },
+        {
+            "title": "ngaythangnamsinh",
+            "shape": "rectangle",
+            "color": "#7FC671",
+            "geometry_config": {}
+        },
+        {
+            "title": "nguyenquan",
+            "shape": "rectangle",
+            "color": "#2EC27F",
+            "geometry_config": {}
+        },
+        {
+            "title": "diachi",
+            "shape": "rectangle",
+            "color": "#1CB028",
+            "geometry_config": {}
+        }
+    ],
+    "tags": [
+        {
+            "name": "train",
+            "value_type": "none",
+            "color": "#0F8A74"
+        },
+        {
+            "name": "val",
+            "value_type": "none",
+            "color": "#8A0F85"
+        }
+    ]
+}
