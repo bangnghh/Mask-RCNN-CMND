@@ -2119,6 +2119,8 @@ class MaskRCNN():
         # In multi-GPU training, we wrap the model. Get layers
         # of the inner model because they have the weights.
         keras_model = self.keras_model
+        #keras_model.summary()
+        #assert False, "SUMMARRYYY!!!!"
         layers = keras_model.inner_model.layers if hasattr(keras_model, "inner_model")\
             else keras_model.layers
 

@@ -66,7 +66,7 @@ class BalloonConfig(Config):
     IMAGES_PER_GPU = 1
 
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 1  # Background + balloon
+    NUM_CLASSES = 1 + 2  # Background + balloon
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 50
@@ -87,7 +87,8 @@ class BalloonDataset(utils.Dataset):
         subset: Subset to load: train or val
         """
         # Add classes. We have only one class to add.
-        self.add_class("balloon", 1, "balloon")
+        self.add_class("balloon", 1, "quochuy")
+        self.add_class("balloon", 2, "socmnd")
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
@@ -353,11 +354,14 @@ if __name__ == '__main__':
     if args.weights.lower() == "coco":
         # Exclude the last layers because they require a matching
         # number of classes
+
         model.load_weights(weights_path, by_name=True, exclude=[
             "mrcnn_class_logits", "mrcnn_bbox_fc",
             "mrcnn_bbox", "mrcnn_mask"])
     else:
         model.load_weights(weights_path, by_name=True)
+        
+        
 
     # Train or evaluate
     if args.command == "train":

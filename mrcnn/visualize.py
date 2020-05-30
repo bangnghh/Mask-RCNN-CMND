@@ -15,6 +15,7 @@ import colorsys
 
 import numpy as np
 from skimage.measure import find_contours
+from skimage import io
 import matplotlib.pyplot as plt
 from matplotlib import patches,  lines
 from matplotlib.patches import Polygon
@@ -163,7 +164,10 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             p = Polygon(verts, facecolor="none", edgecolor=color)
             ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
+    
     if auto_show:
+       
+        plt.savefig(r"C:\Users\Bang\Desktop\CMNDDetection\Mask-RCNN-CMND")
         plt.show()
 
 
@@ -456,6 +460,8 @@ def draw_boxes(image, boxes=None, refined_boxes=None,
                 p = Polygon(verts, facecolor="none", edgecolor=color)
                 ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
+    
+    
 
 
 def display_table(table):
